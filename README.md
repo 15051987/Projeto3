@@ -1,11 +1,8 @@
 # Projeto3
-
-
-
 Sobre mim
 Este é minha primeira experiência em programação, meu primeiro projeto  utilizando HTML e CSS.
 Utilizei no HTML as Tags:
-Header para o titulo; 
+Header para o titulo
 <Body> para o conteúdo o <H1> para o titulo, <h2> e <h3> para os subtitulos.
 <p> Para o texto
 <nav>  para os links no superior da pagina 
