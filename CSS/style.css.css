@@ -1,0 +1,95 @@
+body { background-image:url(natureza.jpg)}
+
+/* Alteração da cor, tamanho e espaçamento do h1 e cabeçalho*/
+
+header{
+    background-color: rgb(42, 44, 165);
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+}
+
+h1{
+    color: white;
+    width: 30%;
+    padding-left: 50px;
+    line-height: 20px;
+    font-family: 'Croissant One', cursive;
+}
+/* Inicio da estilização para o cabeçalho */
+nav {
+    background-color: rgb(114, 150, 250);
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+    font-family: 'Croissant One', cursive;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+/* Final parte da naveção */
+.Subtitulos {
+    color: blue;
+    font-family: 'Coming Soon', cursive;
+}
+/* Para estilizar a fonte e a cor nos textos com paragrafo*/
+p {
+color: #0c0c0c;
+font-family: 'Croissant One', cursive;
+}
+/* Para estilizar a fonte e a cor na lista*/
+ul {
+    color: #0c0c0c;
+    font-family: 'Croissant One', cursive;
+}
+/* Aqui comeca a estlização do rodapé, botão enviar, icones e redes socias */
+form{
+    font-family: 'Croissant One', cursive;
+    display: flex;
+    color: #1206bb;
+    justify-content: spacesp-between;
+}
+
+button {
+    border: 40px;
+    border-radius: 8px;
+    width: 64px;
+    height: 32px;
+    color: black;
+    background-color:rgb(133, 161, 238);
+}
+
+button:hover {
+        background-color: #0906a7; 
+        transform: scale(1.2);
+    }
+
+.footer-redes-sociais{
+    flex-direction: column;
+    text-align: center;
+    background-color: #093ce2;
+    font-family: 'Croissant One', cursive;
+    color: #FFF;
+    display: flex;
+}
+
+.footer-icones{
+    margin-top: 24px;
+}
+
+.img_rodape {
+    height: 25px;
+    width: 25px;
+    padding-right: 15px;
+}
+
+.paragrafo_rodape {
+    font-family: 'Croissant One', cursive;
+    color: white;
+    text-align: center;
+}
